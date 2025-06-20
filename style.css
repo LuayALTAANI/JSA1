@@ -1,0 +1,70 @@
+#soundsContent {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: fit-content;
+    padding: 20px;
+    background-color: #fbff00;
+}
+
+.soundGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.soundGroup:nth-child(1) {
+    background-color: #eab1fb;
+}
+
+.soundGroup:nth-child(2) {
+    background-color: #97ecff;
+}
+
+.soundGroup:nth-child(3) {
+    background-color: #a2ff9f;
+}
+
+.soundGroup:nth-child(4) {
+    background-color: #ffdc5c;
+}
+
+.soundGroup:nth-child(5) {
+    background-color: #ff87f9;
+}
+
+.soundGroup h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+.soundGroup>div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.soundGroup img {
+    width: 50px;
+    height: 50px;
+}
+
+.soundGroup p {
+    font-size: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.soundGroup p:hover {
+    background-color: #dddddd;
+}
